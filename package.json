@@ -4,6 +4,7 @@
   "description": "3D isosurface polygonizer",
   "main": "index.js",
   "scripts": {
+    "build": "browserify browser.js -o build/isosurface.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
   "author": "Mikola Lysenko",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "20517b13d1db64cdbf0498eb9eee728265faee9b"
+  "gitHead": "20517b13d1db64cdbf0498eb9eee728265faee9b",
+  "dependencies": {
+    "browserify": "^12.0.1"
+  }
 }
