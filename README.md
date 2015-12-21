@@ -33,6 +33,12 @@ npm install isosurface
 var isosurface = require("isosurface")
 ```
 
+or
+
+```html
+<script src="http://tdhooper.github.io/isosurface/build/isosurface.js"></script>
+```
+
 #### `isosurface.surfaceNets(dims, potential[, bounds])`
 Extracts an isosurface from `potential` using surface nets with resolution given by `dims`.
 
